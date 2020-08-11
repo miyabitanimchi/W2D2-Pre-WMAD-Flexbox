@@ -1,0 +1,33 @@
+p {
+    background-color: cyan;
+    width: 30%;
+    color: blue;
+    font-size: 70px;
+    margin: 25px;
+    border: 2px solid gray;
+}
+
+h1 {
+    font-size: 100px;
+    background-color: cadetblue;
+    width: 100%;
+    color: darkblue;
+    text-align: center;
+}
+
+.grandparents {
+    display: flex;
+    flex-direction: column;
+}
+
+.uncle {
+    background-color: aquamarine;
+}
+
+.parents {
+    display: flex;
+    flex-direction: row;
+    width: 100%
+    justify-content: space-around;
+    text-align: center;
+}
